@@ -16,7 +16,7 @@ body{
 }
 
 header, footer{
-	padding: 15px;
+	padding: 10px;
 	color: #d0dde3;
 	font-size: x-large;
 	text-align: center;
@@ -36,7 +36,7 @@ main{
 nav {
     margin: auto;
     text-align: center;
-    padding: 15px;
+    padding: 0px;
     margin-top: 0px;
     margin-right: 0px;
 }
@@ -82,11 +82,4 @@ p{
 	margin: 16px auto;
 	text-align: center;
 	font-size: large;
-}
-
-#logo {
-    float: left;
-    width: 100px;
-    margin-left: 155px;
-    border-radius: 50%;
 }
