@@ -10,15 +10,22 @@
         <link href="styles.css" rel="stylesheet">
 	</head>
 
-	<audio autoplay>
-		<source src="assets/Diminished Triads.mp3" type="audio/mpeg">
+	<audio autoplay id="theme">
+		<source src="assets/DiminishedTriads.mp3" type="audio/ogg">
+		<source src="assets/DiminishedTriads.wav" type="audio/wav">
+		<source src="assets/DiminishedTriads.ogg" type="audio/ogg">
 		Your browser does not support the audio element.
 	</audio>
+
+	<script>
+		var audio = document.getElementById("theme");
+		audio.volume = .01;
+		</script>
 
 	<body>
 		
 			<header>
-				<img id="logo" src="assets/LogoWhite.png" alt="logo" width="250" height="250">
+				<a href ="index.html"><img id="logo" src="assets/LogoWhite.png" alt="logo" width="250" height="250"></a>
 				<br>
 				<h1></h1>
 			</header>
@@ -31,7 +38,7 @@
 				</nav>
 				<main>
 					<h2> Home </h2>
-						<p> Welcome to Diminished 3rd Studio. <br> We are passionate gamers and creatives building our own studio. </p>
+						<p> Diminished 3rd Studio is an independant studio founded by and for gamers. <br> We are passionate about storytelling and crafting uniquely horrifying worlds to explore and uncover. </p>
 				</main>	
 			<footer>
 				<p>Diminished 3rd Studio</p>
