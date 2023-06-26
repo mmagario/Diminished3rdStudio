@@ -61,10 +61,15 @@ nav a {
     display: inline-block;
     text-decoration: none;
     font-weight: bold;
-	font-size: large;
+	font-size: 22px;
     padding: 30px;
     text-align: center;
 	color: #fff ;
+	text-shadow: 5px 5px 5px #00000099;
+}
+nav a:hover {
+	text-shadow: none;
+
 }
 
 nav li:hover {
@@ -91,23 +96,53 @@ nav li:hover {
 
 h2, h3{
 	text-align: center;
-	font-size: xx-large;
+	font-size: 40px;
 	color: #fff;
     text-shadow: 5px 5px 5px #000;
 }
+
+h2 {
+	overflow: hidden;
+	text-align: center;
+  }
+
+h2:before, h2:after {
+    background-color: #0b0b0bad;
+	content: "";
+	display: inline-block;
+	height: 5px;
+	position: relative;
+	vertical-align: middle;
+	width: 40%;
+	box-shadow: 5px 5px 5px black;
+	border-radius: 2.5px;
+  }
+
+h2:before {
+	right: 0.75em;
+	margin-left: -50%;
+  }
+
+h2:after {
+	left: 0.75em;
+	margin-right: -50%;
+  }
 
 p{
 	max-width: 100ch;
 	margin: 16px auto;
 	text-align: center;
-	font-size: large;
+	font-size: 22px;
 	text-shadow: 5px 5px 5px #000;
 }
+
+a[href^="mailto: diminshed3rdstudio@gmail.com"] {
+	color:#fff;
+  }
 
 footer{
 	padding: 5px;
 	color: #808080ab;
-	font-size: x-large;
 	text-align: center;
 	width: 1280px;
 	margin: 0 auto;
