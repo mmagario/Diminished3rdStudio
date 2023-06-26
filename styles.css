@@ -17,7 +17,7 @@ body{
 }
 
 header {
-	padding: 25px;
+	padding: 10px;
 	color: #d0dde3;
 	font-size: x-large;
 	text-align: center;
@@ -27,7 +27,6 @@ header {
     background-color: #0b0b0bad;
     border-radius: 5px;
     box-shadow: 5px 5px 5px black;
-
 }
 
 main{
@@ -67,9 +66,9 @@ nav a {
 	color: #fff ;
 	text-shadow: 5px 5px 5px #00000099;
 }
+
 nav a:hover {
 	text-shadow: none;
-
 }
 
 nav li:hover {
@@ -81,17 +80,21 @@ nav li:hover {
 }
 
 #logo {
-    filter: drop-shadow(7px 7px 7px #000);
-    -webkit-filter: drop-shadow(7px 7px 7px #000);
+	margin-top: 40px;
+    filter: drop-shadow(5px 5px 5px #000);
+    -webkit-filter: drop-shadow(5px 5px 5px #000);
 	animation: fadeInAnimation ease 8s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 	text-shadow: 5px 5px 5px #000;
+	transition: all 2s ease-out
 }
 
 #logo:hover{
 	transition: all 2s ease-in-out;
-	transform: scale(1.05);
+	transform: scale(1.1);
+	filter: drop-shadow(5px 5px 5px #ffffff99);
+    -webkit-filter: drop-shadow(5px 5px 5px #ffffff99);
 }
 
 h2, h3{
